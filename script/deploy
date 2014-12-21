@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh app@loalhost <<EOF
+ssh app@localhost <<EOF
   cd ~/jenkins-test
   git pull
   npm install --production
